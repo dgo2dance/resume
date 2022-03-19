@@ -96,28 +96,7 @@ export default {
     },
   ],
   interns: [
-    {
-      left: '大疆创新（前端实习，美国 Palo Alto）',
-      link: '',
-      right: '2019年06月',
-      children: [
-        {left: '开发 LAANC（Low-Altitude Authorization and Notification）系统'},
-        {left: '使用 *Element UI* 重做原先使用 *Buefy* + *Bulma* 编写的组件，并根据新 UI 设计稿重写用户交互逻辑和组件样式'},
-        {left: '运用 *GraphQL* 配合 Vue-Apollo 处理大部分数据请求，同时使用 Vue-Apollo 提供的 Subscription 功能实现通知模块'},
-        {left: '使用 *Jest* 编写单元测试，用 *Puppeteer* 编写表单的集成测试，用 *MockServer* 和 Vue-Apollo 测试 RESTful API 和 GraphQL 接口，并在 Gitlab 上进行自动化测试。'},
-      ]
-    },
-    {
-      left: 'Brix（前端实习，美国 Irvine）',
-      link: '',
-      right: '2019年04月',
-      children: [
-        {left: '使用 *React.js* 单独开发一套 OJ（Online Judge）系统'},
-        {left: '基于 *Ant Design* 和 *Sass* 编写组件样式和网页布局'},
-        {left: '使用 *Ace Editor* 实现在线编辑代码功能，并用 Session 记住每道编程题的做题情况'},
-        {left: '前后端分离，使用 *Mock.js* 生成假数据来测试后端提供的 RESTful API'}
-      ]
-    },
+
   ],
   projects: [
     {
@@ -125,8 +104,8 @@ export default {
     //  link: 'https://github.com/linter-guide',
       right: '2021年12月',
       children: [
-        {left: '以促进职场内人与人、人与组织之间更美好的连接为目标，以组织人员信息共享、人员状态兴趣社交等为初始点，以小程序、PC网站渠道，拓展2C2B初始用户，一步步积累增长，挖掘招聘等其他需求；'},
-        {left: '输出一套轻量化开发的运营后台系统、PC端web系统、微信小程序、点评组件化系统；支持功能的快速迭代及运营增长；'},
+        {left: '以促进职场内人与人、人与组织之间更美好的连接为目标，以组织人员信息共享、人员状态兴趣社交等为初始点，以小程序、PC网站渠道，拓展2C2B初始用户，并挖掘新需求，以步步累积增长；'},
+        {left: '输出一套轻量化开发的运营后台系统、PC端web系统、微信小程序、点评组件化系统,支持功能的快速迭代及运营增长；'},
         {left: 'node.js、midway.js、vue.js、next.js、mysql、docker'},
       ]
     },
@@ -135,7 +114,7 @@ export default {
     //  link: 'https://github.com/wecom-sidebar',
       right: '2021年08月',
       children: [
-        {left: '实施“远程运维服务在线学习平台”产品，通过该产品平台，预期达到增加和公司直接或间接客户间的沟通途径；改变公司产品相关操作使用资料的培训的单一方式；激发用户了解产品的主动性和积极性；协助客户推行产品操作培训效果检验；推动产品运用知识积累和传播的目标。'},
+        {left: '实施“远程运维服务在线学习平台”产品，通过该产品平台，预期达到增加和公司直接或间接客户间的沟通途径；改变公司产品相关操作使用资料的培训的单一方式；激发用户了解产品的主动性和积极性；协助客户推行产品操作培训效果检验；推动产品运用知识积累和传播的目标；'},
         {left: '系统分PC端及小程序端访问，包含产品展示、产品培训、知识库、外部信息交流、在线考试、自定义信息处理、系统管理、个人中心、报表模块；'},
         {left: 'springColud alibaba、springboot、nacos 、redis、mysql、elasticsearch、vue.js、antdesign、microservice'},
       ]
@@ -155,9 +134,9 @@ export default {
     //  link: 'https://haixiang6123.github.io/overwatch-ui-doc/#/',
       right: '2019年10月',
       children: [
-        {left: '支撑在线服务公司的一体化管理运营，提升人力资源管理领域的信息化水平，进行人力资本云系统的建设'},
-        {left: '系统对接流程平台实现员工入职、试用期考核、转正、调动、退休、离职、假期等员工关系流程管理，实现组织结构、职务、职位管理，实现薪酬项目、薪酬规则配置、薪酬数据的核算'},
-        {left: 'spring-boot，dubbo，zookeeper，redis，mysql，react，typescript'},
+        {left: '支撑在线服务公司的一体化管理运营，提升人力资源管理领域的信息化水平，进行人力资本云系统的建设；'},
+        {left: '系统对接流程平台实现员工入职、试用期考核、转正、调动、退休、离职、假期等员工关系流程管理，实现组织结构、职务、职位管理，实现薪酬项目、薪酬规则配置、薪酬数据的核算；'},
+        {left: 'springboot、dubbo、zookeeper、redis、mysql、react、typescript'},
       ]
     },
     {
@@ -165,11 +144,11 @@ export default {
     //  link: 'https://github.com/Haixiang6123/codeblock-beautifier/blob/master/README-CN.md',
       right: '2018年12月',
       children: [
-        {left: '为科学管理10086客户服务资源，有效降低人力成本、提升客户服务满意度、加强公司集中化的服务管控，赋能排班师及员工，需研发智能排班系统。功能模块包含人力信息管理，话务预测，人力需求预测，班次班表生成'},
-        {left: '用时间序列预测算法进行话务量分时段的预测，预测准确度达到90%以上'},
-        {left: '用规划寻优算法结合各种约束条件进行班次班表的辅助生成'},
-        {left: '运用可视化数据展现，直观展现话务情况，排班情况，人效比，运用数字精准地跟踪人效，以促进人效的不断提升'},
-        {left: 'springboot，dubbo，zookeeper，redis，mysql，require.js，html，css'}
+        {left: '为科学管理10086客户服务资源，有效降低人力成本、提升客户服务满意度、加强公司集中化的服务管控，赋能排班师及员工，需研发智能排班系统。功能模块包含人力信息管理，话务预测，人力需求预测，班次班表生成；'},
+        {left: '用时间序列预测算法进行话务量分时段的预测，预测准确度达到90%以上；'},
+        {left: '用规划寻优算法结合各种约束条件进行班次班表的辅助生成；'},
+        {left: '运用可视化数据展现，直观展现话务情况，排班情况，人效比，运用数字精准地跟踪人效，以促进人效的不断提升；'},
+        {left: 'springboot、dubbo、zookeeper、redis、mysql、require.js、html、css'}
       ]
     },
     {
@@ -177,10 +156,10 @@ export default {
     //  link: 'https://github.com/Haixiang6123/node-autodoc',
       right: '2017年06月',
       children: [
-        {left: '为支撑公司对聚合支付系统前端电商系统，充值系统，家宽平台等各业务进行清结算需求，提升清结算效率，减少繁琐的手工操作；研发清结算系统'},
-        {left: '含T+1分账清算及月度月结清算场景，完成资金流与信息流的核对，差异处理，清分，结算等'},
-        {left: '系统月度订单量达到千万级'},
-        {left: 'springboot，dubbo，zookeeper，redis，mysql，js，html，css'},
+        {left: '为支撑公司对聚合支付系统前端电商系统，充值系统，家宽平台等各业务进行清结算需求，提升清结算效率，减少繁琐的手工操作，研发清结算系统；'},
+        {left: '含T+1分账清算及月度月结清算场景，完成资金流与信息流的核对，差异处理，清分，结算等；'},
+        {left: '系统月度订单量达到千万级；'},
+        {left: 'springboot、dubbo、zookeeper、redis、mysql、js、html、css'},
       ]
     },
     {
@@ -188,9 +167,9 @@ export default {
     //  link: 'https://haixiang6123.github.io/guitar-editor/#/',
       right: '2013年09月',
       children: [
-        {left: '基于IBM-IPA集成产品研发产品全生命周期管理的理念，在达索的ENOVIA平台上，全新实施宇通客车产品数据管理系统，实现客车产品数据的全管理，减少产品质量问题，减少设计变更，提高设计效率和缩短设计周期'},
-        {left: '功能含产品族管理、产品管理、标准物料清单(BOM)管理，订单物料清单(BOM)管理，零件管理，配置项管理、配置项约束规则管理、，设计三维数模及二维图档管理，变更版本管理，流程管理，CATIA设计软件集成'},
-        {left: 'java,jsp,jquery,javascript,oracle'},
+        {left: '基于IBM-IPA集成产品研发产品全生命周期管理的理念，在达索的ENOVIA平台上，全新实施宇通客车产品数据管理系统，实现客车产品数据的全管理，减少产品质量问题，减少设计变更，提高设计效率和缩短设计周期；'},
+        {left: '功能含产品族管理、产品管理、标准物料清单(BOM)管理，订单物料清单(BOM)管理，零件管理，配置项管理、配置项约束规则管理、，设计三维数模及二维图档管理，变更版本管理，流程管理，CATIA设计软件集成；'},
+        {left: 'java、jsp、jquery、javascript、oracle'},
       ]
     },
     {
@@ -198,8 +177,8 @@ export default {
     //  link: 'https://haixiang6123.github.io/guitar-editor/#/',
       right: '2013年06月',
       children: [
-        {left: '期间负责过质量管理系统、生产异常系统、供应商管理系统、售后配件目录系统、技术资料处理系统、海外服务网系统、研发项目管理系统、CAPP工艺管理系统的日常项目及变更支撑工作'},
-        {left: 'java,jsp,spring,strtus,mybatis,jquery,javascript,oracle'},
+        {left: '期间负责过质量管理系统、生产异常系统、供应商管理系统、售后配件目录系统、技术资料处理系统、海外服务网系统、研发项目管理系统、CAPP工艺管理系统的日常项目及变更支撑工作；'},
+        {left: 'java、jsp、spring、strtus、mybatis、jquery、javascript、oracle'},
       ]
     },
     {
@@ -207,9 +186,9 @@ export default {
     //  link: 'https://haixiang6123.github.io/guitar-editor/#/',
       right: '2012年03月',
       children: [
-        {left: '一是销售配置下单系统的日常维护支撑，二是通过配置套餐包下单，特殊要求标准化，订单评审数据流程等优化开发及技术资料处理平台的搭建，改进“小批量定制”的运营模式的障碍，建立模块化的产品架构。'},
-        {left: '配置套餐包下单，特殊要求标准化功能开发，技术资料处理平台实现'},
-        {left: 'struts，spring，ibatis，jquery，javascript，oracle'},
+        {left: '一是销售配置下单系统的日常维护支撑，二是通过配置套餐包下单，特殊要求标准化，订单评审数据流程等优化开发及技术资料处理平台的搭建，改进“小批量定制”的运营模式的障碍，建立模块化的产品架构；'},
+        {left: '配置套餐包下单，特殊要求标准化功能开发，技术资料处理平台实现；'},
+        {left: 'struts、spring、ibatis、jquery、javascript、oracle'},
       ]
     },
     {
@@ -217,7 +196,8 @@ export default {
     //  link: 'https://haixiang6123.github.io/guitar-editor/#/',
       right: '2010年06月',
       children: [
-        {left: '在项目中，负责CRM与数据仓库之间的ETL工作, 研究ETL调度工具INFORMATICA POWERCENTER ，设计ODS库，完成ETL的Mapping映射，工作流调度，工作流监控，增量抽取等，并完成配置'},
+        {left: '在项目中，负责CRM与数据仓库之间的ETL工作, 研究ETL调度工具INFORMATICA POWERCENTER ，设计ODS库，完成ETL的Mapping映射，工作流调度，工作流监控，增量抽取等，并完成配置；'},
+        {left: 'informatic powerCenter、sqlServer、oracle；'},
       ]
     },
     {

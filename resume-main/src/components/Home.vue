@@ -11,11 +11,11 @@
     <div class="contact">
       <h4>个人链接</h4>
       <hr>
-      <div class="blogs">
-        主页: <strong><a :href="website" target="_blank">{{ website }}</a></strong>
-      </div>
       <div class="links">
         Github: <strong><a :href="github" target="_blank">{{ github }}</a></strong>
+      </div>
+      <div class="blogs">
+        主页: <strong><a :href="website" target="_blank">{{ website }}</a></strong>
       </div>
       <div class="links">
         知乎: <strong><a :href="zhihu" target="_blank">{{ zhihu }}</a></strong>
